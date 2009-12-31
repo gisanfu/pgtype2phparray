@@ -9,15 +9,15 @@ $ php reverse.php
 
 # Array Arch
 
-schema01 --+
-           |
-		   +-- procedure01 --+
-		                     |
-							 +-- field01 --+
-							               |
-										   +-- type = int8
-										   |
-										   +-- sort = 1
-										   |
-										   +-- default = null
+schema01 ---+
+			|
+			+-- procedure01 ----+
+								|
+								+-- field01 ----+
+												|
+												+-- type = int8
+												|
+												+-- sort = 1
+												|
+												+-- default = null
 schema02 ...
