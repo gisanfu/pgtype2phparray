@@ -1,0 +1,23 @@
+# Environment
+
+Zend 1.9.6
+PHP 5.3.1
+
+# HOW TO USE
+
+$ php reverse.php
+
+# Array Arch
+
+schema01 --+
+           |
+		   +-- procedure01 --+
+		                     |
+							 +-- field01 --+
+							               |
+										   +-- type = int8
+										   |
+										   +-- sort = 1
+										   |
+										   +-- default = null
+schema02 ...
